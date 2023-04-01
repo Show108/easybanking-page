@@ -1,0 +1,294 @@
+body{
+    overflow-x: hidden;
+    font-family: 'Public Sans';
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navigation{
+    display: flex;
+    align-items: center;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-left: 0px;
+    justify-content: space-around;
+    align-items: center;
+    color: hsl(233, 8%, 62%) ;
+    width: 100%;
+}
+
+
+.nav-desktop{
+    display: flex;
+    list-style: none;
+    margin-left: 0px;
+}
+
+.home,
+.career,
+.blog,
+.about,
+.contact{
+    text-decoration: none;
+    color: hsl(233, 8%, 62%);
+    padding: 10px 20px;
+
+}
+
+
+.home:hover,
+.career:hover,
+.blog:hover,
+.about:hover,
+.contact:hover{
+    background:linear-gradient(to right,hsl(136, 65%, 51%),hsl(192, 70%, 51%));
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+
+}
+
+.navbutton{
+    border-radius: 15px;
+    margin-left: 0px;
+    width: 10%;
+    border: 0;
+    outline: none;
+    padding: 9px;
+    background-image: linear-gradient(to right,hsl(136, 65%, 51%),hsl(192, 70%, 51%));
+    color: #ffffff;
+    font-family: 'Public Sans';
+    cursor: pointer;
+}
+.navbutton:hover{
+    background: #31d35c;
+}
+
+.mobile-menu{
+    display: none;
+}
+
+
+@media screen and (min-width:320px) and (max-width:480px) {
+    
+
+    .nav-desktop{
+        display: none;
+    }
+
+    .navigation{
+        width: 100%;
+    }
+
+    .logo{
+        width: 25%;
+    }
+
+
+    .nav-mobile{
+        position: absolute;
+        display: block;
+        list-style: none;
+        background-color: #ffffff;
+        left: 8px;
+        top: 70px;
+        width: 95%;
+        height: 250px;
+        transition: all 1s ease;
+        border-radius: 10px;
+        z-index: 1;
+        padding-top: 20px;
+    }
+
+    .home,
+    .career,
+    .blog,
+    .about,
+    .contact{
+        text-decoration: none;
+        color: hsl(233, 8%, 62%);
+        padding: 32px;
+        text-align: center;
+        width: 100%;
+        transition: all 1s ease;
+
+    }
+
+
+
+    .home:hover,
+    .career:hover,
+    .blog:hover,
+    .about:hover,
+    .contact:hover{
+        background:linear-gradient(to right,hsl(136, 65%, 51%),hsl(192, 70%, 51%));
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+
+    }
+
+    .navbutton{
+        display: none;
+    }
+
+    .mobile-menu{
+        display: block;
+        border: 0;
+        outline: none;
+        background-color: transparent;
+    }   
+    .menu{
+        width: 70%;
+    }
+
+    .close{
+        width: 60%;
+    }
+}
+
+@media screen and (min-width:481px) and (max-width:769px) {
+    
+
+    .nav-desktop{
+        display: none;
+    }
+
+    .navigation{
+        width: 100%;
+    }
+
+    .logo{
+        width: 30%;
+    }
+
+
+    .nav-mobile{
+        position: absolute;
+        display: block;
+        list-style: none;
+        background-color: #ffffff;
+        left: 8px;
+        top: 70px;
+        width: 95%;
+        height: 250px;
+        transition: all 1s ease;
+        border-radius: 10px;
+        z-index: 1;
+        padding-top: 20px;
+        
+    }
+
+    .home,
+    .career,
+    .blog,
+    .about,
+    .contact{
+        text-decoration: none;
+        color: hsl(233, 8%, 62%);
+        padding: 32px;
+        text-align: center;
+        width: 100%;
+        transition: all 1s ease;
+
+    }
+
+
+
+    .home:hover,
+    .career:hover,
+    .blog:hover,
+    .about:hover,
+    .contact:hover{
+        background:linear-gradient(to right,hsl(136, 65%, 51%),hsl(192, 70%, 51%));
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+
+    }
+
+    .navbutton{
+        display: none;
+    }
+
+    .mobile-menu{
+        display: block;
+        border: 0;
+        outline: none;
+        background-color: transparent;
+    }   
+    .menu{
+        width: 100%;
+    }
+
+    .close{
+        width: 80%;
+    }
+}
+
+@media screen and (min-width:770px) and (max-width:1024px) {
+    
+    .navigation{
+        display: flex;
+        align-items: center;
+        margin-top: 15px;
+        margin-bottom: 15px;
+        margin-left: 0px;
+        justify-content: space-around;
+        align-items: center;
+        color: hsl(233, 8%, 62%) ;
+        width: 100%;
+    }
+    
+    
+    .nav-desktop{
+        display: flex;
+        list-style: none;
+        margin-left: 0px;
+    }
+    
+    .home,
+    .career,
+    .blog,
+    .about,
+    .contact{
+        text-decoration: none;
+        color: hsl(233, 8%, 62%);
+        padding: 10px 13px;
+    
+    }
+    
+    
+    .home:hover,
+    .career:hover,
+    .blog:hover,
+    .about:hover,
+    .contact:hover{
+        background:linear-gradient(to right,hsl(136, 65%, 51%),hsl(192, 70%, 51%));
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+    
+    }
+    
+    .navbutton{
+        border-radius: 15px;
+        margin-left: 0px;
+        width: 15%;
+        border: 0;
+        outline: none;
+        padding: 9px;
+        background-image: linear-gradient(to right,hsl(136, 65%, 51%),hsl(192, 70%, 51%));
+        color: #ffffff;
+        font-family: 'Public Sans';
+        cursor: pointer;
+    }
+    .navbutton:hover{
+        background: #31d35c;
+    }
+    
+    .mobile-menu{
+        display: none;
+    }
+}
+

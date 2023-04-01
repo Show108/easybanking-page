@@ -1,0 +1,160 @@
+body{
+    overflow-x: hidden;
+    font-family: 'Public Sans';
+}
+
+.secondsection{
+    background-color:hsl(220, 16%, 96%);
+    margin-top: -30px;
+    padding-bottom: 100px;
+    padding-left: 150px;
+}
+
+.secondsection h1{
+    padding-top: 100px;
+    font-size: 40px;
+}
+
+.secondsection p{
+    font-size: 16px;
+    padding-bottom: 55px;
+    padding-top: 30px;
+}
+
+.icons{
+    display: flex;
+}
+
+.icons span{
+    margin-right: 10%;
+}
+
+.icons span h3{
+    padding-top:20px ;
+}
+
+.icons span p{
+    padding-top: 20px;
+}
+
+@media screen and (min-width:320px) and (max-width:480px){
+    
+    .secondsection{
+        background-color:hsl(220, 16%, 96%);
+        margin-top: -30px;
+        padding-bottom: 100px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    
+    .secondsection h1{
+        padding-top: 100px;
+        font-size: 35px;
+        text-align: center;
+    }
+    
+    .secondsection p{
+        font-size: 15px;
+        padding-bottom: 35px;
+        text-align: center;
+        color: hsl(233, 8%, 62%);
+        padding-top: 10px;
+    }
+    
+    .icons{
+        display: block;
+        text-align: center;
+    }
+    
+    .icons span{
+        margin-right: 10px;
+        align-items: center;
+    }
+
+    .icons span h3{
+        padding-top: 10px;
+    }
+    .icons span p{
+        padding-top: 10px;
+    }
+}
+
+@media screen and (min-width:481px) and (max-width:769px){
+    
+    .secondsection{
+        background-color:hsl(220, 16%, 96%);
+        margin-top: -30px;
+        padding-bottom: 100px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    
+    .secondsection h1{
+        padding-top: 100px;
+        font-size: 35px;
+        text-align: center;
+    }
+    
+    .secondsection p{
+        font-size: 15px;
+        padding-bottom: 35px;
+        text-align: center;
+        color: hsl(233, 8%, 62%);
+        padding-top: 10px;
+    }
+    
+    .icons{
+        display: block;
+        text-align: center;
+    }
+    
+    .icons span{
+        margin-right: 10px;
+        align-items: center;
+    }
+
+    .icons span h3{
+        padding-top: 10px;
+    }
+    .icons span p{
+        padding-top: 10px;
+        font-size: 16px;
+    }
+}
+
+@media screen and (min-width:770px) and (max-width:1024px) {
+    .secondsection{
+        background-color:hsl(220, 16%, 96%);
+        margin-top: -30px;
+        padding-bottom: 100px;
+        padding-left: 80px;
+    }
+    
+    .secondsection h1{
+        padding-top: 100px;
+        font-size: 40px;
+    }
+    
+    .secondsection p{
+        font-size: 14px;
+        padding-bottom: 55px;
+        padding-top: 30px;
+    }
+    
+    .icons{
+        display: flex;
+    }
+    
+    .icons span{
+        margin-right: 10%;
+    }
+    
+    .icons span h3{
+        padding-top:20px ;
+    }
+    
+    .icons span p{
+        padding-top: 20px;
+    }
+    
+}
